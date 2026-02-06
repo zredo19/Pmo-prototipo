@@ -3,7 +3,7 @@ import { Clock, FileSpreadsheet, Presentation, ChevronRight, BarChart3 } from 'l
 import axios from 'axios';
 import HistoryDetail from './HistoryDetail';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.DEV ? 'http://localhost:8000' : '';
 
 /**
  * History component showing past analysis records.
@@ -98,8 +98,8 @@ export default function History() {
                             key={tab.id}
                             onClick={() => setActiveTab(tab.id)}
                             className={`flex items-center gap-2 px-4 py-2 rounded-xl font-medium transition-all ${isActive
-                                    ? 'bg-primary-600 text-white shadow-lg shadow-primary-600/25'
-                                    : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700'
+                                ? 'bg-primary-600 text-white shadow-lg shadow-primary-600/25'
+                                : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700'
                                 }`}
                         >
                             <Icon className="w-4 h-4" />

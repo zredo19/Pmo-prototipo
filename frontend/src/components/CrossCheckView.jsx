@@ -2,7 +2,7 @@ import { useState, useCallback } from 'react';
 import { Upload, FileSpreadsheet, Presentation, X, Loader2, AlertCircle, CheckCircle } from 'lucide-react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.DEV ? 'http://localhost:8000' : '';
 
 /**
  * Drag and drop file upload component for Excel and PPTX files.

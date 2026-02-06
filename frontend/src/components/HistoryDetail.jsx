@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { X, AlertTriangle, Info, CheckCircle, FileSpreadsheet, Presentation, TrendingUp, Clock, ArrowLeft } from 'lucide-react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.DEV ? 'http://localhost:8000' : '';
 
 /**
  * Modal/Panel component displaying detailed analysis results.

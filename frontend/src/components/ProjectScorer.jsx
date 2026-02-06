@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Calculator, TrendingUp, AlertTriangle, Target, Users, Loader2 } from 'lucide-react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.DEV ? 'http://localhost:8000' : '';
 
 /**
  * Project prioritization form component.

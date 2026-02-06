@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import { Upload, FileSpreadsheet, Download, Loader2, AlertCircle, TrendingUp, TrendingDown, Minus } from "lucide-react";
 import axios from "axios";
 
-const API_URL = "http://localhost:8000";
+const API_URL = import.meta.env.DEV ? "http://localhost:8000" : "";
 
 export default function PriorityBatchView() {
     const [file, setFile] = useState(null);
