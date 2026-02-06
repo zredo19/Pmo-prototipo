@@ -1,0 +1,64 @@
+Actúa como un Asistente PMO. Genera una presentación de PowerPoint (o el contenido para una) basada en estos datos críticos.
+Instrucciones: Crea diapositivas para los siguientes proyectos. Introduce ALGUNOS errores sutiles en presupuesto o fechas para probar la atención al detalle.
+
+Datos Críticos del Excel (Fuente de Verdad):
+
+Proyecto: Panel Marketing Global 28
+- Presupuesto: $1,586,000 (ERROR INTENCIONAL)
+- Fecha: 2024-02-08
+- Manager: K. Muñoz
+- Estado: Rojo
+
+Proyecto: Migración Infraestructura Interno 89
+- Presupuesto: $2,842,000 (ERROR INTENCIONAL)
+- Fecha: 2024-06-24
+- Manager: M. García
+- Estado: Rojo
+
+Proyecto: Despliegue Cumplimiento Interno 52
+- Presupuesto: $2,718,000 (ERROR INTENCIONAL)
+- Fecha: 2024-08-04
+- Manager: A. López
+- Estado: Amarillo
+
+Proyecto: Panel Marketing Interno 21
+- Presupuesto: $2,661,000 (ERROR INTENCIONAL)
+- Fecha: 2024-08-06
+- Manager: L. Rodríguez
+- Estado: Amarillo
+
+Proyecto: Plataforma RRHH Local 98
+- Presupuesto: $2,125,000 (ERROR INTENCIONAL)
+- Fecha: 2024-07-05
+- Manager: M. García
+- Estado: Rojo
+
+Proyecto: Actualización RRHH Interno 50
+- Presupuesto: $1,748,000
+- Fecha: 2024-11-10
+- Manager: A. López
+- Estado: Rojo
+
+Proyecto: Actualización Infraestructura Regional 6
+- Presupuesto: $1,692,000
+- Fecha: 2024-09-16 (ERROR INTENCIONAL)
+- Manager: A. López
+- Estado: Amarillo
+
+Proyecto: Iniciativa Infraestructura Estratégico 81
+- Presupuesto: $1,681,000
+- Fecha: 2024-09-10
+- Manager: L. Rodríguez
+- Estado: Amarillo
+
+Proyecto: Panel Infraestructura Interno 65
+- Presupuesto: $1,879,000 (ERROR INTENCIONAL)
+- Fecha: 2024-01-21 (ERROR INTENCIONAL)
+- Manager: L. Rodríguez
+- Estado: Amarillo
+
+Proyecto: Iniciativa RRHH Global 11
+- Presupuesto: $1,252,000 (ERROR INTENCIONAL)
+- Fecha: 2024-02-13
+- Manager: J. Pérez
+- Estado: Amarillo
