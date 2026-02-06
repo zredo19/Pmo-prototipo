@@ -3,6 +3,16 @@ FastAPI application for PMO Agent.
 Provides endpoints for file analysis and project prioritization.
 """
 
+# Vercel serverless fix: add backend directory to Python path
+import sys
+import os
+from pathlib import Path
+
+# Add the backend directory to sys.path for Vercel compatibility
+backend_dir = Path(__file__).resolve().parent
+if str(backend_dir) not in sys.path:
+    sys.path.insert(0, str(backend_dir))
+
 from contextlib import asynccontextmanager
 from datetime import datetime
 from typing import Any
