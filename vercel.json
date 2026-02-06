@@ -15,7 +15,27 @@
     ],
     "routes": [
         {
-            "src": "/api/(.*)",
+            "src": "/prioritize/(.*)",
+            "dest": "backend/main.py"
+        },
+        {
+            "src": "/analyze",
+            "dest": "backend/main.py"
+        },
+        {
+            "src": "/history/(.*)",
+            "dest": "backend/main.py"
+        },
+        {
+            "src": "/history",
+            "dest": "backend/main.py"
+        },
+        {
+            "src": "/priority-history/(.*)",
+            "dest": "backend/main.py"
+        },
+        {
+            "src": "/priority-history",
             "dest": "backend/main.py"
         },
         {
